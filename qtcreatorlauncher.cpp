@@ -42,7 +42,7 @@ int main(int argc, char* argv[]) {
 
 
     if (!success) {
-        std::cerr << "Failed to launch Qt Creator: " << GetLastError() << "\n";
+        std::cerr << "Failed to launch Targeted Executable: " << GetLastError() << "\n";
         return 1;
     }
 
